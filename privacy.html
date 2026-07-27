@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SparkBid Privacy Policy</title>
+<style>
+  :root {
+    --brand: #F5A623;
+    --ink: #1A1F2E;
+    --ink-secondary: #6B7280;
+    --bg: #F4F5F7;
+    --card: #FFFFFF;
+    --border: #E5E7EB;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--ink);
+    line-height: 1.6;
+  }
+  .wrap {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 48px 24px 80px;
+  }
+  header {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 32px;
+  }
+  .logo {
+    width: 52px;
+    height: 52px;
+    border-radius: 14px;
+    background: var(--brand);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 6px 16px rgba(245, 166, 35, 0.35);
+    flex-shrink: 0;
+  }
+  .logo svg { width: 28px; height: 28px; }
+  header h1 { font-size: 1.5rem; margin: 0; }
+  header p { margin: 2px 0 0; color: var(--ink-secondary); font-size: 0.95rem; }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 28px 28px 32px;
+    margin-bottom: 20px;
+  }
+  h2 { font-size: 1.05rem; margin: 0 0 10px; }
+  p, li { color: var(--ink-secondary); font-size: 0.95rem; }
+  ul { margin: 8px 0; padding-left: 20px; }
+  li { margin-bottom: 6px; }
+  strong { color: var(--ink); }
+  .updated { color: var(--ink-secondary); font-size: 0.85rem; margin-bottom: 28px; }
+  footer {
+    text-align: center;
+    color: var(--ink-secondary);
+    font-size: 0.85rem;
+    margin-top: 40px;
+  }
+  a { color: var(--brand); }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ink: #F4F5F7;
+      --ink-secondary: #9CA3AF;
+      --bg: #14161F;
+      --card: #1E2130;
+      --border: #2C2F3E;
+    }
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">
+        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M13 2 4 14h6l-1 8 9-12h-6l1-8Z" fill="#1A1200"/>
+        </svg>
+      </div>
+      <div>
+        <h1>Privacy Policy</h1>
+        <p>SparkBid — bids, change orders, and estimates for electrical contractors</p>
+      </div>
+    </header>
+
+    <p class="updated">Last updated: July 27, 2026</p>
+
+    <div class="card">
+      <h2>What we collect</h2>
+      <p>SparkBid is a business tool. Nearly everything it stores is data you enter yourself to run your business:</p>
+      <ul>
+        <li><strong>Account info:</strong> the email address and password you sign up with (handled by Firebase Authentication — we never see or store your password directly).</li>
+        <li><strong>Business data you enter:</strong> your company profile, customer contacts (name, phone, email, address), jobs, estimates, change orders, rate list items, photos you attach to change orders, and signatures captured on estimates or change orders.</li>
+        <li><strong>AI Ballpark Estimate inputs:</strong> when you use the AI Ballpark Estimate feature, the job description text you type is sent to Google's AI models (via Firebase AI Logic) to generate a pricing response. No other app data is sent along with it.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>How we use it</h2>
+      <p>Your data is used solely to operate the app for you: syncing your jobs and estimates across your own devices, generating PDFs you choose to share, and powering the optional AI Ballpark Estimate feature. We do not use your data for advertising, and we do not sell your data to anyone.</p>
+    </div>
+
+    <div class="card">
+      <h2>Where it's stored</h2>
+      <p>Your data is stored on Google's Firebase platform (Firestore database and Cloud Storage), under industry-standard security practices. Only you can access your own data — each account's data is isolated and requires your authentication to read or write.</p>
+    </div>
+
+    <div class="card">
+      <h2>Subscriptions &amp; payment</h2>
+      <p>The AI Ballpark Estimate subscription is billed and processed entirely by Apple through the App Store. SparkBid never receives or stores your payment card details. Manage or cancel your subscription any time in your device's Settings → Apple ID → Subscriptions.</p>
+    </div>
+
+    <div class="card">
+      <h2>Your choices</h2>
+      <p>You can edit or delete your customers, jobs, and rate list at any time within the app. To delete your account and all associated data entirely, email us at the address below and we'll take care of it promptly.</p>
+    </div>
+
+    <div class="card">
+      <h2>Children</h2>
+      <p>SparkBid is a business tool for electrical contractors and is not directed at, or knowingly used to collect information from, children under 13.</p>
+    </div>
+
+    <div class="card">
+      <h2>Changes to this policy</h2>
+      <p>If this policy changes, we'll update the date at the top of this page. Continued use of SparkBid after a change means you accept the updated policy.</p>
+    </div>
+
+    <div class="card">
+      <h2>Contact us</h2>
+      <p>Questions about this policy or your data? Email <a href="mailto:stevan.othon@gmail.com?subject=SparkBid%20Privacy">stevan.othon@gmail.com</a>.</p>
+    </div>
+
+    <footer>
+      &copy; 2026 SparkBid. All rights reserved. &middot; <a href="index.html">Support</a>
+    </footer>
+  </div>
+</body>
+</html>
